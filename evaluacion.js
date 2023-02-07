@@ -20,5 +20,9 @@ let resultado = numero1 + numero2
 console.log(resultado) 
 
 // c
+let Numero1 = parseInt ( prompt ("Ingrese un numero"))
+let Numero2 = parseInt ( prompt ("Ingrese un numero"))
+let Resultado = Numero1 + Numero2 
+console.log(Resultado)
 
 
