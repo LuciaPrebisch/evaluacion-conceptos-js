@@ -25,4 +25,14 @@ let Numero2 = parseInt ( prompt ("Ingrese un numero"))
 let Resultado = Numero1 + Numero2 
 console.log(Resultado)
 
+let numeroA = parseInt (prompt ("Ingrese un numero"))
+let numeroB = parseInt (prompt ("Ingrese un numero"))
+let numeroC = parseInt (prompt ("Ingrese un numero"))
+
+if (numeroA === numeroB === numeroC) {
+    console.log ("Los 3 numeros son iguales")
+} else {
+    numeroA !== numeroB 
+    console.log("Los numeros no son iguales")
+}
 
