@@ -11,3 +11,5 @@ e) Pida al usuario tres números y muéstrelos ordenados de mayor a menor. */
 
 let usuario = prompt ("Ingrese su nombre")
 console.log ("Bienvenida" + usuario)
+
+let Usuario = prompt ("Ingrese un numero")
