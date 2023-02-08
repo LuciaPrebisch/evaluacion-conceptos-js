@@ -27,6 +27,7 @@ let Numero2 = parseInt ( prompt ("Ingrese un numero"))
 let Resultado = Numero1 > Numero2 
 console.log( " El " + Numero1 + " es mayor que " + Numero2)
 
+//d
 
 let numeroA = parseInt (prompt ("Ingrese un numero"))
 let numeroB = parseInt (prompt ("Ingrese un numero"))
