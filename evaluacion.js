@@ -26,7 +26,6 @@ let resultado = numero1 + numero2
 alert(resultado) 
 
 
-
 //c 
 let Numero1 = parseInt ( prompt ("Ingrese un numero"))
 let Numero2 = parseInt ( prompt ("Ingrese un numero"))
@@ -39,10 +38,7 @@ if (Numero1<Numero2) {
 }
 
 
-
-
 //d
-
 
 let numeroA = parseInt (prompt ("Ingrese un numero"))
 let numeroB = parseInt (prompt ("Ingrese un numero"))
@@ -55,4 +51,24 @@ if (numeroA === numeroB && numeroA === numeroC) {
     alert ("Los numeros no son iguales")
 }
 
+
+// e 
+let NumeroA = parseInt (prompt ("Ingrese un numero"))
+let NumeroB = parseInt (prompt ("Ingrese un numero"))
+let NumeroC = parseInt (prompt ("Ingrese un numero"))
+
+let NumerosABC = [NumeroA , NumeroB , NumeroC]
+
+NumerosABC.sort (function NumerosABC ( NumeroA, NumeroB , NumeroC ) { return NumeroC , NumeroB , NumeroA }
+)
+console.log(NumerosABC)
+
+// no se hacerlo // 
+ 
 */
+
+
+
+
+
+
