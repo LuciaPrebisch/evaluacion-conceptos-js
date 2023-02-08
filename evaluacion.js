@@ -7,7 +7,12 @@ a) Pida al usuario su nombre y muestre un mensaje de bienvenida.
 b) Pida al usuario dos números y muestre su suma.
 c) Pida al usuario dos números y muestre el mayor.
 d) Pida al usuario tres números y muestre una leyenda que diga si los tres son iguales, sino lo son que también lo informe.
-e) Pida al usuario tres números y muéstrelos ordenados de mayor a menor. */
+e) Pida al usuario tres números y muéstrelos ordenados de mayor a menor. 
+f) Pida al usuario su peso en kg y su altura en metros y muestre su índice de masa corporal (IMC): Peso (en Kg) / (Altura (en metros) al cuadrado).
+Si el número esta por debajo de 18.5 mostrá la leyenda "Bajo peso"
+Si el número esta entre 18.6 y 24.9  mostrá la leyenda "Normal"
+Si el número esta entre 25 y 29.9  mostrá la leyenda "Sobrepeso"
+Si el número esmayor a 30 mostrá la leyenda "Obesidad"
 
 
 // a
@@ -18,25 +23,36 @@ console.log (" Bienvenida " + usuario)
 let numero1 = parseInt (prompt ("Ingrese un numero"))
 let numero2 = parseInt (prompt ("Ingrese un numero"))
 let resultado = numero1 + numero2 
-console.log(resultado) 
+alert(resultado) 
+
 
 
 //c 
 let Numero1 = parseInt ( prompt ("Ingrese un numero"))
 let Numero2 = parseInt ( prompt ("Ingrese un numero"))
-let Resultado = Numero1 > Numero2 
-console.log( " El " + Numero1 + " es mayor que " + Numero2)
+
+if (Numero1>Numero2) {
+    alert(Numero1)
+} 
+if (Numero1<Numero2) {
+    alert(Numero2)
+}
+
+
+
 
 //d
+
 
 let numeroA = parseInt (prompt ("Ingrese un numero"))
 let numeroB = parseInt (prompt ("Ingrese un numero"))
 let numeroC = parseInt (prompt ("Ingrese un numero"))
 
-if (numeroA === numeroB === numeroC) {
-    console.log ("Los 3 numeros son iguales")
+if (numeroA === numeroB && numeroA === numeroC) {
+    alert ("Los 3 numeros son iguales")
 } else {
-    numeroA !== numeroB 
-    console.log("Los numeros no son iguales")
+    numeroA !== numeroB && numeroA !== numeroC
+    alert ("Los numeros no son iguales")
 }
 
+*/
