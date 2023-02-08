@@ -14,7 +14,6 @@ Si el número esta entre 18.6 y 24.9  mostrá la leyenda "Normal"
 Si el número esta entre 25 y 29.9  mostrá la leyenda "Sobrepeso"
 Si el número esmayor a 30 mostrá la leyenda "Obesidad"
 
-
 // a
 let usuario = prompt ("Ingrese su nombre")
 console.log (" Bienvenida " + usuario)
@@ -24,7 +23,6 @@ let numero1 = parseInt (prompt ("Ingrese un numero"))
 let numero2 = parseInt (prompt ("Ingrese un numero"))
 let resultado = numero1 + numero2 
 alert(resultado) 
-
 
 //c 
 let Numero1 = parseInt ( prompt ("Ingrese un numero"))
@@ -36,7 +34,6 @@ if (Numero1>Numero2) {
 if (Numero1<Numero2) {
     alert(Numero2)
 }
-
 
 //d
 
@@ -50,7 +47,6 @@ if (numeroA === numeroB && numeroA === numeroC) {
     numeroA !== numeroB && numeroA !== numeroC
     alert ("Los numeros no son iguales")
 }
-
 
 // e 
 let NumeroA = parseInt (prompt ("Ingrese un numero"))
@@ -67,7 +63,23 @@ console.log(NumerosABC)
  
 */
 
+let peso = parseInt (prompt ("Ingrese su peso en kg"))
+let altura = parseInt (prompt ("Ingrese su altura en metros"))
+let IMC = parseInt (peso / (altura^2) )
 
+alert( " Su IMC es de " + IMC)
+
+if (IMC<18,5) {
+    console.log ("Bajo peso")
+} 
+if (IMC>18,6 && IMC<24,9) {
+    console.log ("Normal") }
+if (IMC>25 && IMC<29,9) {
+    console.log ("Sobrepeso")
+}
+if (IMC>30) {
+    console.log ("Obesidad")
+}
 
 
 
