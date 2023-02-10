@@ -99,7 +99,7 @@ if (dias [posicion === 5]  && dias [posicion === 6] ) {
 }
 
 // 6 
-*/
+
 
 let carrito = []
 
@@ -117,7 +117,7 @@ let costototal = costo * monto
 
 
 
-// PARA FER: Me lleva mucho tiempo comprender el ejercicio e iniciarlo. Siempre veo videos para reforzar y guiarme porque me cuesta. 
-// Me gusto este metodo de examen y estaria muy bueno seguir haciendolo :) 
-
+-- > PARA FER: Me lleva mucho tiempo comprender el ejercicio e iniciarlo. A veces se lo que tengo que utilizar pero es dificil desarrollarlo. 
+Me gusto este metodo de examen y estaria muy bueno seguir haciendolo :) 
+*/
 
