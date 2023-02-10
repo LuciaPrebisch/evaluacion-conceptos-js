@@ -49,17 +49,8 @@ if (numeroA === numeroB && numeroA === numeroC) {
 }
 
 // e 
-let NumeroA = parseInt (prompt ("Ingrese un numero"))
-let NumeroB = parseInt (prompt ("Ingrese un numero"))
-let NumeroC = parseInt (prompt ("Ingrese un numero"))
 
-let NumerosABC = [NumeroA , NumeroB , NumeroC]
 
-NumerosABC.sort (function NumerosABC ( NumeroA, NumeroB , NumeroC ) { return NumeroC , NumeroB , NumeroA }
-)
-console.log(NumerosABC)
-
-// no se hacerlo // 
  
 */
 
