@@ -48,11 +48,28 @@ if (numeroA === numeroB && numeroA === numeroC) {
     alert ("Los numeros no son iguales")
 }
 
-// e 
 
 
- 
-*/
+
+let NumeroA = parseInt (prompt ("Ingrese un numero"))
+let NumeroB = parseInt (prompt ("Ingrese un numero"))
+let NumeroC = parseInt (prompt ("Ingrese un numero"))
+
+let NumeroS = [NumeroA , NumeroB , NumeroC]
+
+if (NumeroA > NumeroB && NumeroA > NumeroC) {
+    console.log (NumeroA)
+}
+ // no sabe como hacerlo. Si uso este metodo tengo infinitas condiciones 
+
+// si armo un array con for, recorro elemento por elemento pero no se como ordenarlo 
+for (let posicion = 0 ; posicion < NumeroS.length ; posicion++ ) {
+    console.log(NumeroS [posicion] )
+}
+
+
+
+/* f
 
 let peso = parseInt (prompt ("Ingrese su peso en kg"))
 let altura = parseInt (prompt ("Ingrese su altura en metros"))
@@ -71,6 +88,7 @@ if (IMC>25 && IMC<29,9) {
 if (IMC>30) {
     console.log ("Obesidad")
 }
+*/
 
 
 
