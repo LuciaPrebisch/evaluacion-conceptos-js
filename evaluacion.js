@@ -1,19 +1,5 @@
 /* Evaluación de conocimientos básicos en JS.
 
-1) Guarda tu proyecto en tu github con el nombre evaluacion-conceptos-js
-2) Por cada ejercicio harás un commit en donde reflejarás con la descripción el número de ejercicio.
-3) Resolvé usando prompt, alert y condicionales:
-a) Pida al usuario su nombre y muestre un mensaje de bienvenida.
-b) Pida al usuario dos números y muestre su suma.
-c) Pida al usuario dos números y muestre el mayor.
-d) Pida al usuario tres números y muestre una leyenda que diga si los tres son iguales, sino lo son que también lo informe.
-e) Pida al usuario tres números y muéstrelos ordenados de mayor a menor. 
-f) Pida al usuario su peso en kg y su altura en metros y muestre su índice de masa corporal (IMC): Peso (en Kg) / (Altura (en metros) al cuadrado).
-Si el número esta por debajo de 18.5 mostrá la leyenda "Bajo peso"
-Si el número esta entre 18.6 y 24.9  mostrá la leyenda "Normal"
-Si el número esta entre 25 y 29.9  mostrá la leyenda "Sobrepeso"
-Si el número esmayor a 30 mostrá la leyenda "Obesidad"
-
 // a
 let usuario = prompt ("Ingrese su nombre")
 console.log (" Bienvenida " + usuario)
@@ -24,7 +10,7 @@ let numero2 = parseInt (prompt ("Ingrese un numero"))
 let resultado = numero1 + numero2 
 alert(resultado) 
 
-//c 
+// c 
 let Numero1 = parseInt ( prompt ("Ingrese un numero"))
 let Numero2 = parseInt ( prompt ("Ingrese un numero"))
 
@@ -35,8 +21,7 @@ if (Numero1<Numero2) {
     alert(Numero2)
 }
 
-//d
-
+// d
 let numeroA = parseInt (prompt ("Ingrese un numero"))
 let numeroB = parseInt (prompt ("Ingrese un numero"))
 let numeroC = parseInt (prompt ("Ingrese un numero"))
@@ -49,7 +34,7 @@ if (numeroA === numeroB && numeroA === numeroC) {
 }
 
 
-
+// e (ejercicio no resuelto)
 
 let NumeroA = parseInt (prompt ("Ingrese un numero"))
 let NumeroB = parseInt (prompt ("Ingrese un numero"))
@@ -68,9 +53,7 @@ for (let posicion = 0 ; posicion < NumeroS.length ; posicion++ ) {
 }
 
 
-
-/* f
-
+//  f
 let peso = parseInt (prompt ("Ingrese su peso en kg"))
 let altura = parseInt (prompt ("Ingrese su altura en metros"))
 let IMC = parseInt (peso / (altura^2) )
@@ -88,8 +71,30 @@ if (IMC>25 && IMC<29,9) {
 if (IMC>30) {
     console.log ("Obesidad")
 }
+
+
+// 4 incompleto
+
+let num1 = parseInt (prompt("Ingrese un numero"))
+console.log(num1)
+
+if (num1 === "" ) {
+    console.error("ingrese un valor numerico"); 
+    
+}
+
 */
 
+// 5 
 
+let dias = ["Lunes" , "Martes" , "Miercoles" , "Jueves" , "Viernes" , "Sabado" , "Domingo"]
+let posicion 
 
+for (let posicion = 0 ; posicion < dias.length ; posicion ++) {
+    console.log (dias [posicion])
+
+if (dias [posicion === 5]  && dias [posicion === 6] ) {
+    console.log ("Fin de semana")
+}
+}
 
